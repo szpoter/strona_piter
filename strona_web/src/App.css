@@ -1,0 +1,56 @@
+.page-shell {
+  min-height: 100vh;
+  background:
+    radial-gradient(circle at top, rgba(56, 189, 248, 0.22), transparent 35%),
+    linear-gradient(160deg, #020617 0%, #0f172a 45%, #111827 100%);
+}
+
+.brand-mark {
+  letter-spacing: 0.04em;
+}
+
+.hero-card {
+  min-height: 72vh;
+}
+
+.stats-panel,
+.feature-card,
+.contact-banner {
+  border: 1px solid rgba(148, 163, 184, 0.14);
+  background: rgba(15, 23, 42, 0.72);
+  backdrop-filter: blur(14px);
+}
+
+.stats-panel {
+  padding: 1.5rem;
+  border-radius: 1.5rem;
+}
+
+.stat-item + .stat-item {
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid rgba(148, 163, 184, 0.16);
+}
+
+.stat-label {
+  margin: 0;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: #93c5fd;
+}
+
+.stat-value {
+  margin: 0.35rem 0 0;
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #f8fafc;
+}
+
+.feature-card {
+  box-shadow: 0 12px 40px rgba(2, 6, 23, 0.35);
+}
+
+.contact-banner {
+  box-shadow: 0 18px 60px rgba(2, 6, 23, 0.4);
+}
