@@ -1,9 +1,0 @@
-{
-  "short_name": "strona_web",
-  "name": "strona_web",
-  "icons": [],
-  "start_url": ".",
-  "display": "standalone",
-  "theme_color": "#111827",
-  "background_color": "#ffffff"
-}
