@@ -299,6 +299,10 @@
   gap: 0.65rem 1.5rem;
 }
 
+.core-services-list {
+  grid-template-columns: 1fr;
+}
+
 .service-list.compact li {
   margin-bottom: 0.55rem;
 }

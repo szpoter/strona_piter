@@ -22,7 +22,7 @@ const payrollServices = [
   'Miesięczne deklaracje ZUS (DRA, RCA, RSA)',
   'Wyliczanie składek ZUS pracowników i przedsiębiorcy',
   'Obsługa PUE ZUS w zakresie dokumentów rozliczeniowych',
-  'Wyliczanie wynagrodzeń do wypłaty (bez prowadzenia pełnych kadr)',
+  'Wyliczanie wynagrodzeń do wypłaty (bez prowadzenia pełnych kadr i szkoleń BHP)',
   'Listy płac',
   'Naliczanie zaliczek na PIT-4',
   'Deklaracje PIT-4R, PIT-11',
@@ -151,7 +151,7 @@ function MainPage({ theme, onToggleTheme }) {
 
           <div className="service-card fade-in-up delay-1 mt-1">
             <h3>Zakres świadczonych usług</h3>
-            <ul className="service-list columns-2">
+            <ul className="service-list columns-2 core-services-list">
               {coreServices.map((service) => (
                 <li key={service}>{service}</li>
               ))}
@@ -229,11 +229,11 @@ function MainPage({ theme, onToggleTheme }) {
               <div className="contact-details-grid">
                 <div className="contact-detail-item">
                   <span>Telefon</span>
-                  <strong>+48 500 000 000</strong>
+                  <strong>+48 600299246</strong>
                 </div>
                 <div className="contact-detail-item">
                   <span>E-mail</span>
-                  <strong>kontakt@piotrgatkowski.pl</strong>
+                  <strong>biuro@piotrgatkowski.pl</strong>
                 </div>
               </div>
             </div>
