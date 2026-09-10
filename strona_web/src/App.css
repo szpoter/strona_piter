@@ -300,13 +300,14 @@
 }
 
 .core-services-list {
-  display: flex;
-  flex-direction: column;
-  gap: 0.75rem;
+  column-count: 2;
+  column-gap: 1.5rem;
 }
 
 .core-services-list li {
+  break-inside: avoid;
   margin-bottom: 0;
+  padding-bottom: 0.75rem;
 }
 
 .service-list.compact li {
@@ -457,6 +458,10 @@
 
   .service-list.columns-2 {
     grid-template-columns: 1fr;
+  }
+
+  .core-services-list {
+    column-count: 1;
   }
 
   .service-card,
