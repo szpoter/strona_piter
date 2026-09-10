@@ -151,7 +151,7 @@ function MainPage({ theme, onToggleTheme }) {
 
           <div className="service-card fade-in-up delay-1 mt-1">
             <h3>Zakres świadczonych usług</h3>
-            <ul className="service-list columns-2 core-services-list">
+            <ul className="service-list core-services-list">
               {coreServices.map((service) => (
                 <li key={service}>{service}</li>
               ))}

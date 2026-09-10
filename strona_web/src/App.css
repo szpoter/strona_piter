@@ -300,12 +300,13 @@
 }
 
 .core-services-list {
-  grid-template-columns: 1fr;
-  gap: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
 }
 
 .core-services-list li {
-  margin-bottom: 0.75rem;
+  margin-bottom: 0;
 }
 
 .service-list.compact li {
@@ -384,7 +385,7 @@
 
 .contact-detail-item strong {
   display: block;
-  color: #ffffff;
+  color: #1d2f40;
   font-size: 0.93rem;
 }
 
@@ -538,6 +539,10 @@
 [data-theme='dark'] .closing-card p,
 [data-theme='dark'] .contact-detail-item span {
   color: #a9b7c4;
+}
+
+[data-theme='dark'] .contact-detail-item strong {
+  color: #ffffff;
 }
 
 [data-theme='dark'] .eyebrow-pill,
