@@ -94,7 +94,7 @@ function MainPage({ theme, onToggleTheme }) {
           <a className="brand-mark" href="#start">
             <img
               className="brand-logo"
-              src={theme === 'dark' ? '/resources/ciemna_ikona.jpeg' : '/resources/jasna_ikona.jpeg'}
+              src={`${process.env.PUBLIC_URL}/resources/${theme === 'dark' ? 'ciemna_ikona.jpeg' : 'jasna_ikona.jpeg'}`}
               alt="Podatki i księgowość Piotr Gatkowski"
             />
           </a>
@@ -117,7 +117,7 @@ function MainPage({ theme, onToggleTheme }) {
         id="start"
         className="hero-section py-4 py-lg-5"
         style={{
-          backgroundImage: `url(${theme === 'dark' ? '/resources/ciemne_tlo.jpeg' : '/resources/jasne_tlo.jpeg'})`,
+          backgroundImage: `url(${process.env.PUBLIC_URL}/resources/${theme === 'dark' ? 'ciemne_tlo.jpeg' : 'jasne_tlo.jpeg'})`,
         }}
       >
         <div className="container">

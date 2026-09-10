@@ -301,6 +301,11 @@
 
 .core-services-list {
   grid-template-columns: 1fr;
+  gap: 0;
+}
+
+.core-services-list li {
+  margin-bottom: 0.75rem;
 }
 
 .service-list.compact li {
@@ -379,7 +384,7 @@
 
 .contact-detail-item strong {
   display: block;
-  color: #1d2f40;
+  color: #ffffff;
   font-size: 0.93rem;
 }
 
