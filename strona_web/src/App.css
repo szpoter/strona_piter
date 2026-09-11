@@ -123,8 +123,8 @@
   gap: 0.35rem;
   border-radius: 999px;
   padding: 0.5rem 0.9rem;
-  background: rgba(224, 242, 247, 0.9);
-  color: #3c6274;
+  background: #2b3244;
+  color: #ffffff;
   font-size: 0.84rem;
   font-weight: 700;
   letter-spacing: 0.03em;
@@ -357,7 +357,7 @@
 
 .closing-card {
   padding: 1.5rem;
-  background: linear-gradient(135deg, rgba(255, 255, 255, 0.94), rgba(233, 242, 248, 0.94));
+  background: #ffffff;
 }
 
 .contact-details-grid {
@@ -512,7 +512,7 @@
 }
 
 [data-theme='dark'] .topbar {
-  background: #0e141f;
+  background: #0d131f;
   border-bottom-color: rgba(148, 163, 184, 0.14);
 }
 
@@ -552,6 +552,10 @@
 [data-theme='dark'] .section-heading span {
   background: rgba(25, 36, 52, 0.82);
   color: #d7e3ee;
+}
+
+[data-theme='dark'] .theme-toggle {
+  background: #0d131f;
 }
 
 [data-theme='dark'] .theme-toggle,
