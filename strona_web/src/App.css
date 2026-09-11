@@ -156,7 +156,7 @@
 
 .btn-primary-soft {
   background: #2b3244;
-  border: 0;
+  border: 1px solid #2b3244;
   color: #ffffff;
   box-shadow: none;
 }
@@ -168,7 +168,7 @@
 }
 
 .btn-outline-soft {
-  border: 0;
+  border: 1px solid #2b3244;
   background: #2b3244;
   color: #ffffff;
 }
@@ -579,7 +579,8 @@
 [data-theme='dark'] .btn-primary-soft,
 [data-theme='dark'] .btn-outline-soft {
   background: #0d131f;
-  border-color: transparent;
+  border-color: #ffffff;
+  border-width: 1px;
   color: #ffffff;
   box-shadow: none;
 }
