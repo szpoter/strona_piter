@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/strona_piter/static/css/main.bc4dd934.css",
+    "main.css": "/strona_piter/static/css/main.dcd52cd6.css",
     "main.js": "/strona_piter/static/js/main.f7669dfe.js",
     "static/js/488.f78f9f56.chunk.js": "/strona_piter/static/js/488.f78f9f56.chunk.js",
     "index.html": "/strona_piter/index.html",
-    "main.bc4dd934.css.map": "/strona_piter/static/css/main.bc4dd934.css.map",
+    "main.dcd52cd6.css.map": "/strona_piter/static/css/main.dcd52cd6.css.map",
     "main.f7669dfe.js.map": "/strona_piter/static/js/main.f7669dfe.js.map",
     "488.f78f9f56.chunk.js.map": "/strona_piter/static/js/488.f78f9f56.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bc4dd934.css",
+    "static/css/main.dcd52cd6.css",
     "static/js/main.f7669dfe.js"
   ]
 }
