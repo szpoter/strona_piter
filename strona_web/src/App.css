@@ -552,8 +552,8 @@
 
 [data-theme='dark'] .eyebrow-pill,
 [data-theme='dark'] .section-heading span {
-  background: #263044;
-  color: #ffffff;
+  background: rgba(25, 36, 52, 0.82);
+  color: #d7e3ee;
 }
 
 [data-theme='dark'] .theme-toggle {
