@@ -155,6 +155,10 @@
   letter-spacing: 0.03em;
 }
 
+.mobile-hero-copy {
+  background: transparent;
+}
+
 .btn-primary-soft,
 .btn-outline-soft {
   border-radius: 999px;
@@ -489,6 +493,22 @@
 
   .hero-title {
     font-size: clamp(2.35rem, 9vw, 3.3rem);
+  }
+
+  .mobile-hero-copy {
+    width: fit-content;
+    max-width: 100%;
+    padding: 0.1rem 0.85rem 0.85rem;
+    border-radius: 1rem;
+    background: #ffffff;
+  }
+
+  [data-theme='dark'] .mobile-hero-copy .hero-title {
+    color: #112233;
+  }
+
+  [data-theme='dark'] .mobile-hero-copy .certificate-line {
+    color: #3c6274;
   }
 
   .btn-primary-soft,

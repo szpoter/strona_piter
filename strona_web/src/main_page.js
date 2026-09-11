@@ -124,8 +124,10 @@ function MainPage({ theme, onToggleTheme }) {
           <div className="row align-items-center g-4 g-lg-5">
             <div className="col-12 col-lg-8 fade-in-up">
               <div className="eyebrow-pill">Księgowość • podatki • ZUS</div>
-              <h1 className="hero-title mt-3">Profesjonalna obsługa księgowa i podatkowa</h1>
-              <p className="certificate-line">Certyfikat księgowy nr. 17923/2007</p>
+              <div className="mobile-hero-copy">
+                <h1 className="hero-title mt-3">Profesjonalna obsługa księgowa i podatkowa</h1>
+                <p className="certificate-line">Certyfikat księgowy nr. 17923/2007</p>
+              </div>
               <div className="d-flex flex-wrap gap-3 mt-4">
                 <a className="btn btn-primary-soft btn-lg" href="#uslugi">
                   Zapoznaj się z usługami
