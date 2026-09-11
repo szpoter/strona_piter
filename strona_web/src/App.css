@@ -498,6 +498,7 @@
   .mobile-hero-copy {
     width: fit-content;
     max-width: 100%;
+    margin-top: 0.45rem;
     padding: 0.1rem 0.85rem 0.85rem;
     border-radius: 1rem;
     background: #ffffff;
