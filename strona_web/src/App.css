@@ -19,7 +19,7 @@
 }
 
 .topbar-inner {
-  height: var(--topbar-height, 108px);
+  height: var(--topbar-height, 116px);
 }
 
 .brand-mark {
@@ -93,7 +93,7 @@
 .hero-section {
   position: relative;
   width: 100%;
-  min-height: calc(100vh - var(--topbar-height, 108px));
+  min-height: calc(100vh - var(--topbar-height, 116px));
   align-content: center;
   background-size: cover;
   background-position: center;
@@ -145,6 +145,14 @@
   font-size: 1.04rem;
   line-height: 1.8;
   color: #5b6b7b;
+}
+
+.certificate-line {
+  margin: 0.9rem 0 0;
+  color: #3c6274;
+  font-size: 0.84rem;
+  font-weight: 700;
+  letter-spacing: 0.03em;
 }
 
 .btn-primary-soft,
@@ -534,6 +542,7 @@
 }
 
 [data-theme='dark'] .brand-subtitle,
+[data-theme='dark'] .certificate-line,
 [data-theme='dark'] .hero-text,
 [data-theme='dark'] .hero-panel-header p,
 [data-theme='dark'] .section-heading p,
