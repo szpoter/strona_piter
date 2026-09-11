@@ -155,8 +155,8 @@
 }
 
 .btn-primary-soft {
-  background: #3a435a;
-  border: 1px solid #3a435a;
+  background: #45405c;
+  border: 1px solid #45405c;
   color: #ffffff;
   box-shadow: none;
 }
@@ -164,18 +164,18 @@
 .btn-primary-soft:hover,
 .btn-primary-soft:focus-visible {
   color: #ffffff;
-  background: #3a435a;
+  background: #45405c;
 }
 
 .btn-outline-soft {
-  border: 1px solid #3a435a;
-  background: #3a435a;
+  border: 1px solid #45405c;
+  background: #45405c;
   color: #ffffff;
 }
 
 .btn-outline-soft:hover,
 .btn-outline-soft:focus-visible {
-  background: #3a435a;
+  background: #45405c;
   color: #ffffff;
 }
 
