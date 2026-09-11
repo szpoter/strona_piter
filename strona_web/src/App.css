@@ -114,6 +114,8 @@
   width: auto;
   display: block;
   object-fit: contain;
+  padding: 0.45rem 0;
+  box-sizing: border-box;
 }
 
 .eyebrow-pill,
@@ -123,7 +125,7 @@
   gap: 0.35rem;
   border-radius: 999px;
   padding: 0.5rem 0.9rem;
-  background: #2b3244;
+  background: #3a435a;
   color: #ffffff;
   font-size: 0.84rem;
   font-weight: 700;
@@ -550,15 +552,14 @@
 
 [data-theme='dark'] .eyebrow-pill,
 [data-theme='dark'] .section-heading span {
-  background: rgba(25, 36, 52, 0.82);
-  color: #d7e3ee;
+  background: #263044;
+  color: #ffffff;
 }
 
 [data-theme='dark'] .theme-toggle {
   background: #0d131f;
 }
 
-[data-theme='dark'] .theme-toggle,
 [data-theme='dark'] .contact-detail-item,
 [data-theme='dark'] .hero-panel,
 [data-theme='dark'] .service-card,
@@ -575,21 +576,19 @@
   background: linear-gradient(180deg, rgba(23, 31, 44, 0.9), rgba(24, 32, 45, 0.86));
 }
 
-[data-theme='dark'] .btn-primary-soft {
-  background: linear-gradient(135deg, #5e8391, #77a1aa);
-  color: #f7fbff;
+[data-theme='dark'] .btn-primary-soft,
+[data-theme='dark'] .btn-outline-soft {
+  background: #0d131f;
+  border-color: transparent;
+  color: #ffffff;
   box-shadow: none;
 }
 
-[data-theme='dark'] .btn-outline-soft {
-  background: rgba(24, 31, 44, 0.7);
-  border-color: rgba(148, 163, 184, 0.14);
-  color: #d9e4ef;
-}
-
+[data-theme='dark'] .btn-primary-soft:hover,
+[data-theme='dark'] .btn-primary-soft:focus-visible,
 [data-theme='dark'] .btn-outline-soft:hover,
 [data-theme='dark'] .btn-outline-soft:focus-visible {
-  background: rgba(34, 44, 58, 0.92);
+  background: #0d131f;
   color: #ffffff;
 }
 
