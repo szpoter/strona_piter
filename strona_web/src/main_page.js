@@ -94,7 +94,7 @@ function MainPage({ theme, onToggleTheme }) {
           <a className="brand-mark" href="#start">
             <img
               className="brand-logo"
-              src={`${process.env.PUBLIC_URL}/resources/${theme === 'dark' ? 'ciemna_ikona.jpeg' : 'jasna_ikona.jpeg'}`}
+              src={`${process.env.PUBLIC_URL}/resources/${theme === 'light' ? 'jasna_ikona.jpeg' : 'ciemna_ikona.jpeg'}`}
               alt="Podatki i księgowość Piotr Gatkowski"
             />
           </a>
